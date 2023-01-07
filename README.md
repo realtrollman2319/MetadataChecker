@@ -15,6 +15,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2184421464
 
 If you're having problem with this module, just let me know via discord.
 735211881953886238
+Or join the uScript discord.
+https://discord.gg/86Zfvsjkdt
 
 # Donations
 
