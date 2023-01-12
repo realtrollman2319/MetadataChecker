@@ -8,6 +8,9 @@ Useful for storing the durability of a suppressor inside a gun, save files and m
 ```
 item [Class]:
 	  +metadata            [get]      : array
+	  
+player [Class]:
+    +giveItemMetadata(uInt16 itemId, string metadataString) // The metadata is stored in comma seperated values, so it would be "196,9" for a full industrial gas can
 ```
 # Additional information
 Here's additional information about item metadatas.
