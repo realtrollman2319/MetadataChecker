@@ -10,8 +10,13 @@ item [Class]:
 	  +metadata            [get]      : array
 	  
 player [Class]:
-    +giveItemMetadata(uInt16 itemId, string metadataString) // The metadata is stored in comma seperated values, so it would be "196,9" for a full industrial gas can
+    +giveItemMetadata(uInt16 itemId, string metadataString)
 ```
+
+# Note:
+The metadata is stored in comma seperated values, so it would be "196,9" for a full industrial gas can.
+Same also applies for other guns.
+
 # Additional information
 Here's additional information about item metadatas.
 https://steamcommunity.com/sharedfiles/filedetails/?id=2184421464
