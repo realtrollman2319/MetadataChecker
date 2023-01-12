@@ -34,25 +34,23 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>E:\SteamLibrary\steamapps\common\Unturned\Unturned_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:\SteamLibrary\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
     <Reference Include="uScript.API">
-      <HintPath>..\..\uScript2-Module-API\uScript.API.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\we fuck around\Unturned\uScript\uScript2-Module-API\uScript.API.dll</HintPath>
     </Reference>
     <Reference Include="uScript.Core-reference">
-      <HintPath>..\..\uScript2-Module-API\uScript.Core-reference.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\we fuck around\Unturned\uScript\uScript2-Module-API\uScript.Core-reference.dll</HintPath>
     </Reference>
     <Reference Include="uScript.Module.Main">
-      <HintPath>..\..\uScript2-Module-API\uScript.Module.Main.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\we fuck around\Unturned\uScript\uScript2-Module-API\uScript.Module.Main.dll</HintPath>
     </Reference>
     <Reference Include="uScript.Unturned-reference">
-      <HintPath>..\..\uScript2-Module-API\uScript.Unturned-reference.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\we fuck around\Unturned\uScript\uScript2-Module-API\uScript.Unturned-reference.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
