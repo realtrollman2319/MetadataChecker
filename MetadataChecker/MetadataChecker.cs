@@ -14,7 +14,7 @@ namespace MetadataChecker
         [ScriptFunction("get_metadata")]
         public static ExpressionValue metadata([ScriptInstance] ExpressionValue instance)
         {
-            if (!(instance.Data is ItemClass item)) return 0;
+            if (!(instance.Data is ItemClass item)) return ExpressionValue.Null;
             var metadata = item.Item.item.metadata.Select(b => (ExpressionValue)b); // Converts each byte in the byte array to an ExpressionValue
             return ExpressionValue.Array(metadata);
         }
