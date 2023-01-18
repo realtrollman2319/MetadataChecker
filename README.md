@@ -14,7 +14,7 @@ player [Class]:
 ```
 
 # Note:
-The metadata is stored in comma seperated values, so it would be "196,9" for a full industrial gas can.
+When giving a player an item with metadata, it must be a comma seperated values, so it would be "196,9" for a full industrial gas can.
 Same also applies for other guns.
 
 # Additional information
