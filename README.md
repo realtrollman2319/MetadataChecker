@@ -3,19 +3,22 @@ Special thanks to Ster for helping me make this module!
 
 # About
 This module is for uScript2 for Unturned.
-It's purpose is to add a extension that allows you to retrieve the metadata of a gun, gas can, night vision or a canteen.
+Its purpose is to add a extension that allows you to retrieve or edit the metadata of a gun, gas can, night vision or a canteen.
 Useful for storing the durability of a suppressor inside a gun, save files and more.
 ```
 item [Class]:
 	  +metadata            [get]      : array
 	  
 player [Class]:
-    +giveItemMetadata(uInt16 itemId, string metadataString)
+    +giveItemMetadata(uInt16 itemId, array)
+    
+MetadataEditor [Class]:
+    +applyMetadata(object item, string playerId, array metadataArray);
 ```
 
 # Note:
-When giving a player an item with metadata, it must be a comma seperated values, so it would be "196,9" for a full industrial gas can.
-Same also applies for other guns.
+It now supports arrays. Make sure it's the same count as the item's metadata you're editing.
+
 
 # Additional information
 Here's additional information about item metadatas.
