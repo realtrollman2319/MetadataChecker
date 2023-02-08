@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MetadataChecker")]
-[assembly: AssemblyDescription("Checks for a item's metadata. Works on guns, NVGs, gas cans and canteens. Useful for storing data.")]
+[assembly: AssemblyDescription("Checks for a item's metadata. You can edit a item's metadata if it's a valid item with metadata. Works on guns, NVGs, gas cans and canteens. Useful for storing data.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Chewing Gum Productions")]
 [assembly: AssemblyProduct("MetadataChecker")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.2.0")]
-[assembly: AssemblyFileVersion("1.0.2.0")]
+[assembly: AssemblyVersion("1.0.3.0")]
+[assembly: AssemblyFileVersion("1.0.3.0")]
