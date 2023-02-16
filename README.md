@@ -14,6 +14,7 @@ player [Class]:
     
 MetadataEditor [Class]:
     +applyMetadata(object item, string playerId, array metadataArray);
+    +toByteArray(int32 number);
 ```
 
 # Note:
