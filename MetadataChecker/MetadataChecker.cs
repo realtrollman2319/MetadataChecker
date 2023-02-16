@@ -146,5 +146,15 @@ namespace MetadataChecker
                 }
             }
         }
+        
+        [ScriptFunction]
+        public static ExpressionValue toByteArray(int intGiven)
+        {
+            byte[] split = new byte[2];
+            Buffer.BlockCopy(BitConverter.GetBytes(intGiven), 0, split, 0, 2);
+
+            var byteArray = split.Select(b => (ExpressionValue)b); // Converts each byte in the byte array to an ExpressionValue - Ster
+            return ExpressionValue.Array(byteArray);
+        }
     }
 }
