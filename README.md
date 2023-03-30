@@ -7,17 +7,17 @@ Its purpose is to add a extension that allows you to retrieve or edit the metada
 Useful for storing the durability of a suppressor inside a gun, save files and more.
 ```
 item [Class]:
-	  +metadata            [get]      : array
+	+metadata            [get]      : array
 	  
 player [Class]:
-    +giveItemMetadata(uInt16 id, array metadataArray, [byte quality], [byte amount])
+	+giveItemMetadata(uInt16 id, array metadataArray, [byte quality], [byte amount])
     
 inventory [Class]:
-    +addItemMetadata(uInt16 id, array metadataArray, [byte quality], [byte amount])
+	+addItemMetadata(uInt16 id, array metadataArray, [byte quality], [byte amount])
     
 MetadataEditor [Class]:
-    +applyMetadata(object item, string playerId, array metadataArray);
-    +toByteArray(uInt16 number);
+	+applyMetadata(object item, string playerId, array metadataArray)
+	+toByteArray(uInt16 number)     : array
 ```
 
 # Note:
