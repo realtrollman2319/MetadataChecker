@@ -10,7 +10,10 @@ item [Class]:
 	  +metadata            [get]      : array
 	  
 player [Class]:
-    +giveItemMetadata(uInt16 itemId, array metadataArray)
+    +giveItemMetadata(uInt16 id, array metadataArray, [byte quality], [byte amount])
+    
+inventory [Class]:
+    +addItemMetadata(uInt16 id, array metadataArray, [byte quality], [byte amount])
     
 MetadataEditor [Class]:
     +applyMetadata(object item, string playerId, array metadataArray);
