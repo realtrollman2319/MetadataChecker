@@ -17,7 +17,8 @@ inventory [Class]:
     
 MetadataEditor [Class]:
 	+applyMetadata(object item, string playerId, array metadataArray)
-	+toByteArray(uInt16 number)     : array
+	+toByteArray(uInt16 number)           : array
+	+toUInt16(byte byte1, byte byte2)     : uInt16
 ```
 
 # Note:
