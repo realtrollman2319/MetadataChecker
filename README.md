@@ -8,19 +8,19 @@ Useful for storing the durability of a suppressor inside a gun, save files and m
 
 # Documentation
 ```
+inventory [Class]:
+	+addItemMetadata(uInt16 id, array metadataArray, [byte quality], [byte amount])
+	
 item [Class]:
 	+metadata            [get]      : array
 	  
-player [Class]:
-	+giveItemMetadata(uInt16 id, array metadataArray, [byte quality], [byte amount])
-    
-inventory [Class]:
-	+addItemMetadata(uInt16 id, array metadataArray, [byte quality], [byte amount])
-    
 MetadataEditor [Class]:
 	+applyMetadata(object item, string playerId, array metadataArray)
 	+toByteArray(uInt16 number)           : array
 	+toUInt16(byte byte1, byte byte2)     : uInt16
+	
+player [Class]:
+	+giveItemMetadata(uInt16 id, array metadataArray, [byte quality], [byte amount])
 ```
 
 # Note:
