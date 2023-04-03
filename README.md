@@ -5,6 +5,8 @@ Special thanks to Ster for helping me make this module!
 This module is for uScript2 for Unturned.
 Its purpose is to add a extension that allows you to retrieve or edit the metadata of a gun, gas can, night vision or a canteen.
 Useful for storing the durability of a suppressor inside a gun, save files and more.
+
+# Documentation
 ```
 item [Class]:
 	+metadata            [get]      : array
